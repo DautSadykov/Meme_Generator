@@ -1,0 +1,107 @@
+body {
+  max-width: 550px;
+  margin: 0 auto;
+  font-family: Karla, sans-serif;
+}
+
+/* Navbar */
+
+nav {
+  background: linear-gradient(to right,#672280, #A626D3);
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+nav .logo {
+  display: flex;
+}
+
+.troll_img {
+  width: 32px;
+  margin-right: 7px;
+}
+
+.site_title {
+  font-size: 21px;
+  color: white;
+}
+
+nav > span {
+  color: white;
+  font-size: 12px;
+}
+
+/* Input Section */
+
+.form {
+  margin: 36px;
+  display: grid;
+  grid-template: 35px 35px / 1fr 1fr;
+  gap: 15px;
+}
+
+.first_input, .second_input {
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 10px;
+  color: #0D0D0D;
+  font-weight: 200;
+}
+
+.get_image_button {
+  border: none;
+  grid-column: 1 / -1;
+  border-radius: 5px;
+  background: linear-gradient(to right,#672280, #A626D3);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.result_image {
+  width: 477px;
+  object-fit: cover;
+  object-position: center;
+  margin: 0 36px;
+}
+
+.meme {
+  position: relative
+}
+
+.meme_text {
+  position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
